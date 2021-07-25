@@ -1,0 +1,128 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Github\\modelando-dominios-ricos\\NerdStore\\src\\NerdStore.Catalogo.Domain\\NerdStore.Catalogo.Domain.csproj": {}
+  },
+  "projects": {
+    "D:\\Github\\modelando-dominios-ricos\\NerdStore\\src\\NerdStore.Catalogo.Domain\\NerdStore.Catalogo.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Github\\modelando-dominios-ricos\\NerdStore\\src\\NerdStore.Catalogo.Domain\\NerdStore.Catalogo.Domain.csproj",
+        "projectName": "NerdStore.Catalogo.Domain",
+        "projectPath": "D:\\Github\\modelando-dominios-ricos\\NerdStore\\src\\NerdStore.Catalogo.Domain\\NerdStore.Catalogo.Domain.csproj",
+        "packagesPath": "C:\\Users\\victo\\.nuget\\packages\\",
+        "outputPath": "D:\\Github\\modelando-dominios-ricos\\NerdStore\\src\\NerdStore.Catalogo.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\victo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://chatbotmaker.pkgs.visualstudio.com/_packaging/ChatbotMaker/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "targetAlias": "netcoreapp2.1",
+            "projectReferences": {
+              "D:\\Github\\modelando-dominios-ricos\\NerdStore\\src\\NerdStore.Core\\NerdStore.Core.csproj": {
+                "projectPath": "D:\\Github\\modelando-dominios-ricos\\NerdStore\\src\\NerdStore.Core\\NerdStore.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "targetAlias": "netcoreapp2.1",
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Github\\modelando-dominios-ricos\\NerdStore\\src\\NerdStore.Core\\NerdStore.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Github\\modelando-dominios-ricos\\NerdStore\\src\\NerdStore.Core\\NerdStore.Core.csproj",
+        "projectName": "NerdStore.Core",
+        "projectPath": "D:\\Github\\modelando-dominios-ricos\\NerdStore\\src\\NerdStore.Core\\NerdStore.Core.csproj",
+        "packagesPath": "C:\\Users\\victo\\.nuget\\packages\\",
+        "outputPath": "D:\\Github\\modelando-dominios-ricos\\NerdStore\\src\\NerdStore.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\victo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://chatbotmaker.pkgs.visualstudio.com/_packaging/ChatbotMaker/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "targetAlias": "netcoreapp2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "targetAlias": "netcoreapp2.1",
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
